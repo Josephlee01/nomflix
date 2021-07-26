@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Container = styled.div`
   height: 100vh;
@@ -7,7 +7,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   font-size: 32px;
-  margin-top: 50px
+  margin-top: 50px;
 `;
 
 const Loader = () => (
@@ -16,6 +16,6 @@ const Loader = () => (
       ⏰
     </span>
   </Container>
-)
+);
 
 export default Loader;
